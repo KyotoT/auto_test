@@ -1,0 +1,19 @@
+<body>
+  <form name="form1">
+    <input name="text1" type="text" />
+ 
+    <!-- ボタン要素で送信ボタンを設置 -->
+    <button id="btn">送信</button>
+  </form>
+ 
+  <script>
+    var btn = document.getElementById('btn');
+ 
+    btn.addEventListener('click', function() {
+      alert(document.form1.text1.value);
+  
+      //submit()でフォームの内容を送信
+      document.form1.submit();
+    })
+  </script>
+</body>

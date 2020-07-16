@@ -1,0 +1,5 @@
+{
+  "python.pythonPath": "C:\\Users\\new_kakutani\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.autoComplete.extraPaths": ["./sc_sh.py"]
+}
